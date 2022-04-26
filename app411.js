@@ -8,7 +8,7 @@ function Product1(name, price) {
     this.price = price;
 }
 
-Product1.prototype.make25PercentDiscount = function (discount) {
+Product1.prototype.make25PercentDiscount = function () {
     this.price = this.price * 0.75;
 }
 
