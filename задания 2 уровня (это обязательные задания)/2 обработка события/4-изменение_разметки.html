@@ -28,7 +28,7 @@
         'use strict'
         let classProduct = document.querySelector('.product');
         classProduct.addEventListener('click', function (event) {
-            event.target.innerHTML = "<div>Другой товар</div><div>Другое описание</div>";
+            event.currentTarget.innerHTML = "<div>Другой товар</div><div>Другое описание</div>";
         });
     </script>
 
